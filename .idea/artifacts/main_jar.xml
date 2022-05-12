@@ -2,7 +2,7 @@
   <artifact type="jar" name="main:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/main_jar</output-path>
     <root id="archive" name="main.jar">
-      <element id="module-output" name="main" />
+      <element id="module-output" name="Checker.main" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.10/kotlin-stdlib-jdk8-1.6.10.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.6.10/kotlin-stdlib-1.6.10.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />

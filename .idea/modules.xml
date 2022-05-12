@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/external/tests.iml" filepath="$PROJECT_DIR$/external/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checker.iml" filepath="$PROJECT_DIR$/Checker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/Checker.main.iml" filepath="$PROJECT_DIR$/src/main/Checker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/tasks/Checker.tasks.iml" filepath="$PROJECT_DIR$/src/tasks/Checker.tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/tests/Checker.tests.iml" filepath="$PROJECT_DIR$/src/tests/Checker.tests.iml" />
     </modules>
   </component>
 </project>
