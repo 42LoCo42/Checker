@@ -4,6 +4,7 @@ import java.io.File
 import java.lang.reflect.InvocationTargetException
 import java.net.URL
 import java.net.URLClassLoader
+import java.util.jar.JarFile
 
 /**
  * @author: Leon Schumacher (Matrikelnummer 19101)
@@ -24,8 +25,8 @@ fun main(args: Array<String>) {
 fun runTest(testFile: File, classDir: File) {
 	try {
 		System.setProperty("user.dir", classDir.absolutePath)
-		with(URLClassLoader(arrayOf(testFile.parentFile.toURI().toURL()))) {
-			loadClass(testFile.nameWithoutExtension)
+		with(URLClassLoader(arrayOf(URL("jar:file:" + testFile.absolutePath + "!/")))) {
+			loadClass(testFile.nameWithoutExtension + "Kt")
 				.method("run", Void.TYPE, URL::class.java)
 				.invoke(null, classDir.toURI().toURL())
 		}
